@@ -1,0 +1,140 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+    border-radius: 30px;
+    width: 90%;
+    color: white;
+    
+}
+.first-part{
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.first-part h1{
+    
+    font-size: 80px;
+
+}
+.first-part p{
+    font-size: 20px;
+    margin-top: -50px;
+}
+.first-part a button{
+    background-color: red;
+    padding: 20px 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.secound-part img{
+    width: 80%;
+    margin-top: 20px;
+}
+.secound-section{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 350px 600px;
+    
+    margin-top: 40px;
+    gap: 20px;
+}
+.part-1{
+    background-color:black;
+    border-radius: 10px;
+    height: 315px;
+}
+.part-1 a{
+    text-decoration: none;
+}
+.part-1 a button{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+
+}
+#blog{
+    background-color: red;
+}
+#upcoming{
+    background-color: red;
+    
+}
+.transfer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.trans-1{
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 370px;
+}
+.trans-2{
+    margin-left: 20px;
+}
+.trans-2 h2{
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px 10px;
+}
+.icon-chat{
+    margin-left: 40px;
+}
+.number{
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    margin-top:150px;
+    background-color: black;
+    color: white;
+    padding: 100px 0px;
+}
+footer h1{
+    font-size: 50px;
+    font-weight: 40px;
+}
+.line{
+    height: 1px;
+    background-color: gray;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: gray;
+    margin-top: 20px;
+}
+.match-time{
+    display: flex;
+    
+}
+.match-time h3{
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.trans-new{
+    padding: 30px;
+    text-align: center;
+    height: 150px;
+}
+

@@ -1,0 +1,78 @@
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+        .secound-part img{
+           
+            margin-top: 20px;
+        }
+        .first-part h1{
+    
+            font-size: 40px;
+        
+        }
+        .first-part p{
+            font-size: 10px;
+            margin-top: 20px;
+        }
+        .secound-section{
+           
+            grid-template-columns: 1fr
+        }
+        .part-1{
+           background-color: white;
+            
+        }  
+        .part-1 a button{
+            margin-top: 30px;
+            border-radius: 20px;
+            width: 260px;
+            font-size: 20px;
+            display: inline-block;
+            background-color: white;
+        
+        }
+        .transfer{
+            
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            
+        }  
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .secound-section{
+           
+        grid-template-columns: 1fr
+    }
+    .part-1{
+       background-color: white;
+        
+    }  
+    .part-1 a button{
+        margin-top: 30px;
+        border-radius: 20px;
+        width: 260px;
+        font-size: 20px;
+        background-color: white;
+    
+    }
+    .transfer{
+            
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+
+        
+    } 
+    .trans-1{
+        margin-top: 50px;
+        height: 450px;
+    }
+    .blog-img{
+        width:100%;
+    } 
+    .list{
+        display: block;
+    }
+}
